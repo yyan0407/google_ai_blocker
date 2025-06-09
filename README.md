@@ -13,17 +13,15 @@ No flicker. No delay. No CSS tricks — just clean JavaScript.
 - ✅ Minimal and efficient — <1 KB
 
 ---
-
 ## 📦 How to Install (Unpacked)
-
-1. Download or clone this repo
-2. Open Chrome and go to:  
+**Download this extension**  
+Click the green **Code** button above, then select **Download ZIP**.  
+Unzip the folder
+Open Chrome and go to:  
    `chrome://extensions`
-3. Enable **Developer mode** (top right)
-4. Click **"Load unpacked"**
-5. Select the folder containing:
-   - `manifest.json`
-   - `content_script.js`
+Enable **Developer mode** (top right)
+Click **"Load unpacked"**
+Select the folder you just unzipped
 
 That’s it! Now when you search on Google, the **AI Overview section will be automatically removed**.
 
