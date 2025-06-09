@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Overview Blocker",
+  "version": "1.0",
+  "description": "Blocks Google's AI Overview by keyword.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["content_script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
